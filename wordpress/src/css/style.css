@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    height: 800px;
+    background: url('../img/main_bg.png') center center/cover no-repeat;
+}
+header img.logo{
+    display: block;
+    margin: 0 auto;
+    width: 83px;
+    padding-top: 40px;
+}
+header h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:  15px;
+    font-weight: medium;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 9.5px;
+}
+header h2.first{
+    padding-top: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size:  41px;
+    font-weight: black;
+    color: #f9bf3b;
+    text-align: center;
+    text-transform: uppercase;
+}
+header h3{
+    padding-top: 20.5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+header h2{
+    padding-top: 20.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size:  41px;
+    font-weight: 900;
+    color: #f9bf3b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p.first{
+    padding-top: 22.5px;
+    font-size: 21px;
+    color:#ffffff;
+    text-align: center;
+    padding-bottom: 72px;
+}
+header button{
+    display: block;
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color:#ffffff;
+    border: 1px solid #000;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+header button:hover{
+    cursor: pointer;
+}
+header p{
+    text-align: center;
+    padding-top: 70.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header img.arrow{
+    padding-top: 4.49px;
+    padding-bottom: 61.02px;
+    width: 29.99px;
+    display: block;
+    margin: 0 auto;
+}
+
+.waiting{
+    min-height: 607px;
+    background-color: #efefef;
+}
+
+.waiting h2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding-top: 85px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.waiting .divider{
+    background-color: #f9bf3b;
+    width: 220px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.waiting h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #4a4a4a;
+    padding-top: 18.5px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.waiting .waiting_wrapper .waiting_item{
+    width: 339px;
+}
+
+.waiting p{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 15px;
+    color: #4a4a4a;
+    padding-top: 26px;
+    
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization img{
+    z-index: -1;
+    position: absolute;
+    margin-top: -61px;
+    margin-left: -50px;
+    width: 868px;
+}
+
+.optimization h2{
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.optimization p{
+    font-size: 17px;
+    font-weight: light;
+    padding-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+}
+.optimization p span{
+    font-weight: bold;
+}
+
+.skills{
+    min-height: 447px;
+    background: url(../img/second_bg.png) center center/cover no-repeat;
+}
+
+.skills .skills_header {
+    padding-top: 86px;
+    padding-bottom: 18px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    color: #efefef;
+}
+
+.skills .skills_divider{
+    background-color: #f9bf3b;
+    width: 220px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skills .skills_buttons{
+    padding-top: 39px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.skills .skills_item{
+    width: 204px;
+}
+.skills .skills_item button{
+    width: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    border: 0px;
+    margin: 0 auto;
+}
+.skills .skills_item p{
+    margin-top: 25px;
+    color: #efefef;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+     
+}
+
+.gift{
+    background-color: #efefef;
+    min-height: 631px;
+}
+
+.gift .gift_img{
+    display: block;
+    padding-top: 88px;
+    margin: 0 auto;
+}
+
+.gift .gift_descr{
+    padding-top: 45px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+    padding-bottom: 51px;
+}
+
+.gift .gift_button{
+    display: block;
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color:#ffffff;
+    border: 0;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+}
+
+.gift .gift_button:hover{
+    cursor: pointer;
+}
+
+.webinar{
+    background-color: #fff;
+}
+
+.webinar .webinar_img{
+    padding-top: 89px;
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_descr{
+    padding-top: 36px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+}
+
+.webinar .webinar_time{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.webinar .webinar_limit{
+    text-align: center;
+    color:#4a4a4a;
+    font-family: 'Roboto';
+    font-size: 23px;
+    padding-top: 24.5px;
+    padding-bottom: 50.5px;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+}
+
+.links{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 15px;
+    padding-top: 57px;
+    color: #888;
+}
+.call{
+    font-family: 'Roboto';
+    font-weight: light;
+    font-size: 15px;
+    padding-top: 5px;
+    color: #888;
+    padding-bottom: 69px;
+}
+.links :link{
+    color:#888;
+
+}
