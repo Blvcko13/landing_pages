@@ -1,0 +1,35 @@
+.review {
+  &__block {
+    margin: 0 126px 48px 99px;
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    &__img {
+      width: 169px;
+      height: 169px;
+    }
+    &__descr {
+      margin-left: 60px;
+    }
+    &__name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0d0d0d;
+      line-height: 18px;
+    }
+    &__count {
+      font-size: 14px;
+      color: #646464;
+      line-height: 22px;
+    }
+    &__content {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: 300;
+      color: #0d0d0d;
+    }
+  }
+}
