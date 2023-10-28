@@ -11,6 +11,20 @@
       }
     }
   }
+  .catalog {
+    &__content {
+      justify-content: space-around;
+    }
+  }
+  .review {
+    &-item {
+      flex-direction: column;
+      margin-top: 30px;
+      &__img {
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 @media (max-width: 767px) {
   .header {
@@ -45,6 +59,22 @@
       width: 500px;
     }
   }
+  .catalog {
+    &__tab {
+      font-size: 17px;
+    }
+  }
+  .review {
+    &__block {
+      margin: 0;
+      margin-bottom: 48px;
+    }
+    &-item {
+      &__descr {
+        margin-left: 0;
+      }
+    }
+  }
 }
 @media (max-width: 525px) {
   .header {
@@ -57,6 +87,18 @@
   .slick-slide {
     img {
       width: 300px;
+    }
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+    }
+    &__tab {
+      margin: 5px;
+      width: 160px;
+      height: 40px;
+      font-size: 15px;
+      line-height: 40px;
     }
   }
 }
