@@ -101,6 +101,34 @@
       line-height: 40px;
     }
   }
+  .footer {
+    &__info {
+      padding: 50px 25px 60px 25px;
+      width: 300px;
+    }
+    &__addr {
+      font-size: 15px;
+      line-height: 15px;
+    }
+    &__phone {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  .modal {
+    width: 300px;
+    &__subtitle {
+      font-size: 13px;
+    }
+    &__close {
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+    }
+    .feed-form {
+      width: 215px;
+    }
+  }
 }
 @media (max-width: 376px) {
   .promo {
